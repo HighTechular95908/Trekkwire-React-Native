@@ -1,5 +1,5 @@
 // Expo CLI will await this method so you can optionally return a promise.
-const createExpoWebpackConfigAsync = require("@expo/webpack-config");//import expo webpack config library
+const createExpoWebpackConfigAsync = require("@expo/webpack-config");//import expo webpack config library using hook
 
 module.exports = async function (env, argv) {
   // https://github.com/expo/expo-cli/tree/master/packages/webpack-config#environment
